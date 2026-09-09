@@ -29,9 +29,9 @@ python forecast_and_decide.py
 
 ## Key findings (from this run)
 
-- Model MAE: ~6.6 units/day, MAPE: ~6.9% on the 30-day held-out test period.
-- Given the stated cost assumptions (stockout costs more than overstock), the optimal service level was ~77%, meaning it's worth carrying visible extra stock rather than ordering to the point forecast.
-- Simply ordering to the point forecast (ignoring uncertainty) cost ~16% more over the test period than the cost-optimised order quantity — a concrete, defensible number to bring to a stakeholder conversation.
+- Model MAE: 6.6 units/day, MAPE: 6.9% on the 30-day held-out test period.
+- Given the stated cost assumptions (stockout costs more than overstock), the optimal service level was 77%, meaning it's worth carrying visible extra stock rather than ordering to the point forecast.
+- Simply ordering to the point forecast (ignoring uncertainty) cost 16% more over the test period than the cost-optimised order quantity — a concrete, defensible number to bring to a stakeholder conversation.
 
 ## What I'd do with more time
 
